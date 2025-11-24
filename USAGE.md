@@ -28,10 +28,10 @@ max.backup.files=5
 ### 1. Student Management
 - Add Student
   ```
-  Enter student ID: 1001
-  Enter first name: John
-  Enter last name: Doe
-  Enter email: john.doe@example.com
+  Enter student ID: 24MIM10112
+  Enter first name: Yash
+  Enter last name: Patwa
+  Enter email: Yash.24mim10112@vitbhopal.ac.in
   ```
 - View Student: Search by ID or list all
 - Update Student: Modify existing records
@@ -40,10 +40,10 @@ max.backup.files=5
 ### 2. Course Management
 - Add Course
   ```
-  Enter course code: CS101
-  Enter course name: Introduction to Programming
+  Enter course code: CSE2006
+  Enter course name: Introduction to Java Programming
   Enter capacity: 30
-  Enter semester: FALL_2025
+  Enter semester: Interim Semester 2025-2026
   ```
 - View Course: Search by code or list all
 - Update Course: Modify course details
@@ -52,9 +52,9 @@ max.backup.files=5
 ### 3. Enrollment Management
 - Enroll Student
   ```
-  Enter student ID: 1001
-  Enter course code: CS101
-  Enter semester: FALL_2025
+  Enter student ID: 24MIM10112
+  Enter course code: CSE2006
+  Enter semester: Interim Semester 2025-2026
   ```
 - Drop Course: Remove enrollment
 - View Enrollments: By student or course
@@ -78,19 +78,19 @@ id,first_name,last_name,email,enrollment_date
 ### courses.csv
 ```csv
 code,name,capacity,instructor,semester
-CS101,Introduction to Programming,30,Dr. Brown,FALL_2025
+CSE2006,Introduction to Java Programming,30,Dr.PRAMOD KUMAR BHATT,Interim 2025-2026
 MATH201,Advanced Calculus,25,Dr. Smith,FALL_2025
 ```
 
 ### enrollments.csv
 ```csv
 student_id,course_code,semester,grade
-1001,CS101,FALL_2025,A
+24MIM10112,CSE2006,Interim_2025-2026,A
 1002,MATH201,FALL_2025,B+
 ```
 
 ## Error Handling
-
+yashpatwa881-web
 ### Common Issues
 1. File Permissions
    - Ensure write access to data directory
